@@ -1,4 +1,4 @@
-## HotelZ
+## HotelZ - Apna Hotel
 
 ---
  
