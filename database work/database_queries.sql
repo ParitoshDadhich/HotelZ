@@ -3,7 +3,7 @@ USE hotel_room_booking_management_system;
 
 
 CREATE TABLE login(
-    login_email VARCHAR(50),
+    login_email VARCHAR(50) NOT NULL UNIQUE,
     login_password VARCHAR(50) NOT NULL,
 
     PRIMARY KEY (login_email)
