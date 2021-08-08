@@ -1,5 +1,5 @@
-CREATE DATABASE hotel_room_booking_management_system;
-USE hotel_room_booking_management_system;
+CREATE DATABASE HotelZ;
+USE HotleZ;
 
 
 CREATE TABLE login(
@@ -135,4 +135,5 @@ BEGIN
   SET NEW.user_name=LOWER(NEW.user_name);
   SET NEW.user_mail=LOWER(NEW.user_mail);
   SET NEW.user_address=LOWER(NEW.user_address);
-END;
+END$$
+DELIMITER ;
