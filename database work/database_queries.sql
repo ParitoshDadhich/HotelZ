@@ -1,5 +1,5 @@
 CREATE DATABASE HotelZ;
-USE HotleZ;
+USE hotelz;
 
 
 CREATE TABLE login(
