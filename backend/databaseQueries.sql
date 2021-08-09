@@ -135,4 +135,4 @@ BEGIN
   SET NEW.user_mail=LOWER(NEW.user_mail);
   SET NEW.user_address=LOWER(NEW.user_address);
 END$$
-DELIMITER ;
+DELIMITER;
