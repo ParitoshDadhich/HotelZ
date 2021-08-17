@@ -1,20 +1,13 @@
 const express = require('express');
 const mysql = require('mysql');
-//const bodyParser = require('body-parser');
-
-//const { deepEqual } = require('assert');
+ 
 
 const app = express();
-/*app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({   
-    extended: true
-  }));
-*/
-
+ 
 app.use(express.json());
 app.use(express.urlencoded());
 
-//const router = express.Router();
+ 
 
 const db = mysql.createConnection({
     host     : 'localhost',
