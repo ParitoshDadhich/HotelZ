@@ -146,6 +146,11 @@ app.get("/user",(req,res)=>{
 });
 
 
+// 10 - 12
+// 1. 11 - 1
+// 2. 10:30 - 11
+// 3. 8 - 1
+
 app.get("/room",(req,res)=>{
 
     const checkIn = req.query.checkIn;
